@@ -1,0 +1,74 @@
+#wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(Rafif-AI-Feature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-text h1 {
+    color: #080808;
+    font-size: 80px;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px rgb(244, 236, 10);
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 210px;
+    height: 50px;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(25, 25, 25, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-size: 12px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color:grey;
+    color: white;
+}

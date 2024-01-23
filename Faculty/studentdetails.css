@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(olga-tutunaru-plbb7pkEjkQ-unsplash.jpg);
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  }
+
+    .welcome-text {
+      position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        font-size: 45px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  h3 {
+    color: #333;
+    height: 54px;
+    font-size: 24px;
+  }
+
+
+  .container {
+    border: 2px solid rgb(214, 207, 207);
+max-width: 400px;
+margin: 0 auto;
+padding: 25px;
+background-color: transparent;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+    select {
+      width: 300px;
+      height: 40px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+      padding: 5px;
+      font-size: 16px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+      width: 150px;
+      height: 40px;
+      background-color: #ffc107;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ffa000;
+    }
