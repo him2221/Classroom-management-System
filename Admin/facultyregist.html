@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="facultyregist.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <title>Faculty Registration</title>
+</head>
+
+<body>
+  <div class="welcome-text">
+    <h1>CLASSROOM MANAGEMENT SYSTEM</h1>
+    <h3>FACULTY REGISTRATION</h3>
+    <div class="container">
+
+
+      <form action="pp.php" method="post">
+        <input type="text" placeholder="Enter TeacherId" name="IDT">
+        <input type="text" placeholder="Enter name" name="Name">
+        <input type="text" placeholder="Enter Qualification" name="Qualification">
+        <select placeholder="Course" name="Course">
+        <option value="" disabled selected hidden>Department</option>
+        <option value="IT">IT</option>
+          <option value="Management">Management</option>
+
+        </select>
+        <input type="number" placeholder="Enter Mobile number" name="Mobile">
+        <input type="Email" placeholder="Enter Email" name="Mail">
+        <input type="Password" placeholder="Enter Password" name="Password">
+        <input type="submit" value="REGISTER">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
